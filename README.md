@@ -22,7 +22,6 @@ docker run -d --name dev-challange-frontend1-react-demo -p 8181:8181 dev-challan
 
 - [http://localhost:8181](http://localhost:8181)
 
-```sh
 ## Run Locally
 
 - Clone the project
@@ -36,4 +35,3 @@ npm run dev
 ```
 
 - [http://localhost:8181/](http://localhost:8181/)
-```
