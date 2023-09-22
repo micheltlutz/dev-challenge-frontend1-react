@@ -15,9 +15,25 @@ docker build -t dev-challange-frontend1-react-demo .
 ## Run a image docker
 
 ```bash
-docker run -p 3000:3000 dev-challange-frontend1-react-demo
+docker run -d --name dev-challange-frontend1-react-demo -p 8181:8181 dev-challange-frontend1-react-demo:latest
 ```
 
 ## Open project
 
--[http://localhost:3000](http://localhost:3000)
+- [http://localhost:8181](http://localhost:8181)
+
+```sh
+## Run Locally
+
+- Clone the project
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+- [http://localhost:8181/](http://localhost:8181/)
+```
